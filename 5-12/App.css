@@ -1,0 +1,21 @@
+.manage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem; 
+  padding: 1rem;
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body {
+  background: linear-gradient(to bottom, #ffffff, #a49d9d);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  transition: background 1s ease-in-out;
+  margin: 0; 
+  height: 100vh; 
+}
